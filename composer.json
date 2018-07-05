@@ -1,0 +1,13 @@
+{
+    "name": "nbz4live/laravel-backpack-helpers",
+    "description": "Several helpers, traits, etc for Laravel Backpack",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Fayngold",
+            "email": "sergey@faynhost.com"
+        }
+    ],
+    "require": {}
+}
