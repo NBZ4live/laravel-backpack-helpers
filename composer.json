@@ -9,5 +9,10 @@
             "email": "sergey@faynhost.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nbz4live\\LaravelBackpackHelpers\\": "src/"
+        }
+    }
 }
