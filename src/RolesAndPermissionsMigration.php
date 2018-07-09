@@ -26,7 +26,6 @@ abstract class RolesAndPermissionsMigration extends Migration
         PermissionHelper::createPermissions($this->createPermissionNames);
 
         if (!empty($this->autoassignRolePermissions) && !\is_array($this->autoassignRolePermissions)) {
-            dump('fdsdfsd');
             PermissionHelper::assignPermissionsToRoles($this->createPermissionNames, $this->createRoleNames);
         }
 
