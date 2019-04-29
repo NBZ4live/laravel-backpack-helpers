@@ -180,7 +180,7 @@ trait FiltersTrait
      * @param null $label
      * @param null $column
      */
-    protected function addModelFilter(Model $model, $displayProperty, $name, $label = null, $column = null)
+    protected function addModelFilter($model, $displayProperty, $name, $label = null, $column = null)
     {
         $column = $column ?? $name;
 
